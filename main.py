@@ -155,21 +155,9 @@ elif has_scales == "no":
       tric.print_me()
       exit()
 
-if is_meat == "no" and guess_is_big == "no":   #  if Herbivore and Small
-   armour = input(ask_questions[6])
+# if is_meat == "no" and guess_is_big == "no":   #  if Herbivore and Small
+#    armour = input(ask_questions[6])
 
-
-if armour == "yes":
-   ank = find(computer_guess, ankylosaurus)
-   ank.print_me()
-   exit()
-elif armour == "no":
-    has_crest = input(ask_questions[7])
-    if has_crest == "yes":
-       para = find(computer_guess, parasaurolophus)
-       para.print_me()
-       exit()
-   
 
 if is_meat == "yes" and guess_is_big == "yes":  # if Carnivore and Big
     has_tiny_arms = input(ask_questions[8])

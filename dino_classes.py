@@ -37,16 +37,16 @@ class Triceratops(Herbivore):
         self.size = "big"
         self.legs = "four"
 
-class Ankylosaurus(Herbivore):
-    def __init__(self, dino_name):
-        super().__init__("Ankylosaurus")
-        self.special = "armoured body"
-        self.size = "small"
-        self.legs = "four"
-        self.dino_name = dino_name
+# class Ankylosaurus(Herbivore):
+#     def __init__(self, dino_name):
+#         super().__init__("Ankylosaurus")
+#         self.special = "armoured body"
+#         self.size = "small"
+#         self.legs = "four"
+#         self.dino_name = dino_name
 
-    def print_me(self):
-        print(f"It's an {self.dino_name}!")
+    # def print_me(self):
+    #     print(f"It's an {self.dino_name}!")
 
 class Brachiosaurus(Herbivore):
     def __init__(self):
