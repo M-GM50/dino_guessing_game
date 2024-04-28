@@ -24,7 +24,7 @@ class Carnivore:
 #Herbivores
 
 class Stegosaur(Herbivore):
-    def __init__(self, ):
+    def __init__(self):
         super().__init__("Stegosaur")
         self.special = "scales on its back"
         self.size = "big"
